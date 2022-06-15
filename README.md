@@ -2,7 +2,7 @@
 
 ## A Web Application to predict Breast Cancer using SVM  
 
-![alt text]()
+![alt text](https://github.com/tonyjerald/breast-cancer-prediction-/blob/main/output.png)
 
 ### 1.Project Requirements or Dependencies
 * Anaconda Python (to get ML Libraries)
