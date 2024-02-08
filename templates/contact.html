@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact For Doctor Consultation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" />
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <h1 class="title has-text-centered">Contact For Doctor Consultation</h1>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h3 class="subtitle">Contact Information</h3>
+                    <ul>
+                        <li><a href="mailto:info@breastcancerdetection.com">info@breastcancerdetection.com</a></li>
+                        <li>044 2220 9150</li>
+                        <li>Adyar Cancer Institute</li>
+                        <ul>
+                            <li>Guindy National Park, Adyar, Chennai, Tamil Nadu 600020</li>
+                        </ul>
+                        <li><a href="http://cancerinstitutewia.in/">Adyar Cancer Institute Website</a></li>
+                        <li>
+                            <a href="#">Facebook</a>,
+                            <a href="#">Twitter</a>,
+                            <a href="#">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="subtitle">Send us a message</h3>
+                    <form action="/contact/submit" method="POST">
+                        <div class="field">
+                            <label class="label" for="name">Name</label>
+                            <div class="control">
+                                <input type="text" id="name" name="name" class="input" />
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="email">Email</label>
+                            <div class="control">
+                                <input type="email" id="email" name="email" class="input" />
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="message">Message</label>
+                            <div class="control">
+                                <textarea id="message" name="message" class="textarea" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button type="submit" class="button is-primary">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
